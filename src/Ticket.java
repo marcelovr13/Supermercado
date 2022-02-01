@@ -36,7 +36,7 @@ public class Ticket {
         impresion += "-------------------------\n";
         for (LineaTicket linea : lineas)
             impresion += linea;
-        impresion += "\nTotal\t\t\t\t\t\t " + totalTicket();
+        impresion += "\nTotal\t\t\t\t\t\t\t " + totalTicket();
             return impresion;
     }
 }
