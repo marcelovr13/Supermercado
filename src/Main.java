@@ -4,7 +4,7 @@ public class Main {
         Articulo cocacola = new Articulo("Coca-cola", 2, "Bebida azucarada de color negro.");
         Articulo manzanas = new Articulo("Manzana", 1, "Manzana verde.");
         Articulo platano = new Articulo("Platano", 2, "Platano de Canarias.");
-        Articulo fresa = new Articulo("Fresa", 7, "Fresas rojas.");
+        Articulo fresa = new Articulo("Fresas", 7, "Fresas rojas.");
 
         Ticket ticket = new Ticket("1313");
         ticket.addLinea(cocacola, 4);
@@ -13,10 +13,7 @@ public class Main {
         ticket.addLinea(fresa, 9);
         System.out.println(ticket);
 
-        System.out.println(cocacola);
-        System.out.println(manzanas);
-        System.out.println(platano);
-        System.out.println(fresa);
+
 
     }
 }

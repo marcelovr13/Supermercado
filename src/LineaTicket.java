@@ -16,8 +16,12 @@ public class LineaTicket {
         return cantidad;
     }
 
+    public double precioLinea(){
+        return articulo.getPrecio() * cantidad;
+    }
+
     @Override
     public String toString() {
-        return "\n" + articulo.getNombre() + " \t\t\t\t " + cantidad + "\n";
+        return "\n" + articulo.getNombre() + " \t\t " + cantidad + "\t\t\t" + precioLinea() + "\n";
     }
 }
